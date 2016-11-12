@@ -1,0 +1,17 @@
+{
+	"globals": {
+		"angular": true,
+		"window": true
+	},
+	"node": true,
+	"esnext": true,
+  	"bitwise": true,
+  	"camelcase": true,
+	"strict": "global",
+	"laxbreak" : true, // Tolerate unsafe line breaks e.g. `return [\n] x` without semicolons.
+    "curly": true,   // Require {} for every new block or scope.
+	"eqeqeq" : true, // Require triple equals i.e. `===`.
+	"latedef" : true, // Prohipit variable use before definition.
+	"undef" : true, // Require all non-global variables be declared before they are used.
+	"unused": true
+}

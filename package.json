@@ -1,0 +1,35 @@
+{
+  "name": "generator-ang-boot-sass",
+  "version": "0.0.1",
+  "description": "AngularJS (angular-route or ui-router) - Bootstrap generator with Grunt and Sass",
+  "license": "MIT",
+  "main": "generators/app/index.js",
+  "repository": "Onsa/generator-ang-boot-sass",
+  "author": {
+    "name": "Onsa",
+    "url": "https://github.com/onsa"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators/app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "angular",
+    "angular-route",
+    "angular-ui-router",
+    "bootstrap",
+    "grunt",
+    "sass"
+  ],
+  "dependencies": {
+    "chalk": "~1.1.0",
+    "yeoman-generator": "~0.19.0",
+    "yosay": "~1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
