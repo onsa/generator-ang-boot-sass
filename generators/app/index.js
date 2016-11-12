@@ -131,13 +131,12 @@ module.exports = yeoman.generators.Base.extend({
 			);
 
 			//  Fetch front dependencies.
-			generator.log(yosay('Fetching front ' + chalk.red('dependencies') + '.'));
+			generator.log(yosay('Fetching ' + chalk.red('dependencies') + '.'));
 			var npmInstall = generator.spawnCommand('npm', ['install', '--save-dev',
 																				'bootstrap',
 																				'time-grunt',
 																				'angular',
 																				generator.route.module,
-																				'bootstrap-sass',
 																				'grunt',
 																				'grunt-contrib-clean',
 																				'grunt-contrib-concat',
