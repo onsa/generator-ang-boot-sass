@@ -1,6 +1,6 @@
 {
   "name": "generator-ang-boot-sass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AngularJS (angular-route or ui-router) - Bootstrap generator with Grunt and Sass",
   "license": "MIT",
   "main": "generators/app/index.js",

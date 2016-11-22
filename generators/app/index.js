@@ -15,9 +15,9 @@ var prepareAppName = function(rawAppName) {
 };
 
 var getBaseRef = function(path) {
-	if (path.indexOf('/var/www/html/') > -1) {
+	if (path.indexOf('/var/www/html') > -1) {
   	return path.slice(13)+'/';
-  } else if (path.indexOf('/var/www/') > -1) {
+  } else if (path.indexOf('/var/www') > -1) {
   	return path.slice(8)+'/';
   }
 }
